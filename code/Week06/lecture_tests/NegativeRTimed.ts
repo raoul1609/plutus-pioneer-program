@@ -1,4 +1,4 @@
-import * as L from "https://deno.land/x/lucid@0.9.8/mod.ts";
+ import * as L from "https://deno.land/x/lucid@0.9.8/mod.ts";
 import { assert } from "https://deno.land/std@0.90.0/testing/asserts.ts";
 import * as fc from 'https://cdn.skypack.dev/fast-check';
 

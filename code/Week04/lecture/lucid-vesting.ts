@@ -40,7 +40,7 @@ const VestingDatum = Data.Object({
     deadline: Data.BigInt,
 });
 type VestingDatum = Data.Static<typeof VestingDatum>;
-
+ 
 // Set the vesting deadline
 const deadlineDate: Date = new Date("2023-03-19T00:00:00Z")
 const deadlinePosIx = BigInt(deadlineDate.getTime());

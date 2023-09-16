@@ -66,3 +66,12 @@ test-suite week06-TExploitableSwap
     main-is:            TExploitableSwap.hs
     hs-source-dirs:     homework
     build-depends:      week06
+
+-- ceci c'est mes configurations avant le property test
+-- je pense que le test unitaire est mieux indiqué pour le week6, quelle proprieté pourrait on tester sur le doubleSpending ?
+test-suite week06-PExploitableSwap
+    import:             common-all
+    type:               exitcode-stdio-1.0
+    main-is:            PExploitableSwap.hs
+    hs-source-dirs:     homework
+    build-depends:      week06

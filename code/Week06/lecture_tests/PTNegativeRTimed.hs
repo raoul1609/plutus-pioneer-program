@@ -75,7 +75,8 @@ lockingTx dl usp val =
     , payToScript valScript (HashDatum (OnChain.MkCustomDatum dl)) val
     ]
 
--- Create transaction that spends "giftRef" to unlock "giftVal" from the "valScript" validator
+
+-- ma tx ne prend pas de redeemer
 consumingTx :: POSIXTime -> Integer -> PubKeyHash -> TxOutRef -> Value -> Tx
 consumingTx dl redeemer usr ref val =
   mconcat
